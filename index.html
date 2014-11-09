@@ -2,20 +2,26 @@
 <html>
   <head>
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <title>leD's talk!</title>
   </head>
   <body>
-    <div id="logo" align="center">
-      <h1>leD's talk!</h1>
-    </div>
     <div id="container">
-        <!-- Input message elements -->
-        <h2>
+        <div id="messagebox">
           <input type="text" name="text_name" id="message_id" value="what's up?"></input>
-          <input type="button" name="button_name" value="Send" onClick="sendMessage()"></input>
-        </h2>
-        <!-- Output message elements -->
-        <h2>Presence: <span id="presence_element"></span></h2>
+        </div>
+        <div id="presence" class="bouton">
+	  <span id="presence_element"></span>
+	</div>
+	<div id="temperature" class="bouton">
+	  <span id="temperature_element"></span>
+	</div>
+	<div id="halleffect" class="bouton">
+	  FX
+	</div>
+	<div id="send" class="bouton" onClick="sendMessage()">
+          <i class="fa fa-refresh fa-2x"></i>
+	</div>
     </div>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>  

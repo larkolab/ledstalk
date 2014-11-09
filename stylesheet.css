@@ -12,26 +12,45 @@ h2 {
   font-style : italic;
 }
 
-#logo {
-  background-color: DarkGrey;
+.bouton {
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #a1a1a1;
+  background: #dddddd;
+  text-align:center;
+  font-size: 200%;
+  line-height: 100px;
+}
+
+#send:hover {
+  background-color: grey;
 }
 
 #container {
-  height: 200px;
-  background-color: WhiteSmoke;
-  border-radius: 5px;
-  box-shadow: 10px 10px 5px #888888;
-  padding: 10px;
-  border: 2px solid DarkGrey;
-  margin: 10px;
 }
 
 #message_id {
   border: 2px solid #a1a1a1;
   padding: 10px; 
   background: #dddddd;
-  width: 600px;
+  width: 530px;
   border-radius: 5px;
   font-size: 200%;
+  margin: 10px;
 }
 
+#presence {
+}
+
+#temperature {
+}
+
+#halleffect {
+}
+
+#send {
+}

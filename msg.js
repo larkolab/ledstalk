@@ -1,3 +1,9 @@
+var container = document.querySelector('.masonry');
+var msnry = new Masonry( container, {
+  // options
+  columnWidth: 100,
+});
+
 // See http://xively.github.io/xively-js/tutorial/ for details
 
 var feedID        = 144422134;
@@ -12,7 +18,7 @@ function sendMessage() {
   // Get message from input text box
   var message = document.getElementById('message_id').value;
 
-  xively.datastream.update(feedID, message_datastreamID, {current_value: message}, function(data){ /*alert("channel updated");*/})
+  xively.datastream.update(feedID, message_datastreamID, {current_value: message}, function(data){ alert("channel updated");})
 }
 
 function setPresenceColor(object, presence_status) {

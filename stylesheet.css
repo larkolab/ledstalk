@@ -1,56 +1,33 @@
 * {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: Courier;
 }
 
-h1 {
-  color: DarkGrey;
-  font-style: normal;
+.masonry {
+  background: #EEE;
+  max-width: 1000px;
 }
 
-h2 {
-  color: DarkGrey;
-  font-style : italic;
-}
-
-.bouton {
-  width: 100px;
+.masonry .item {
+  width:  100px;
   height: 100px;
   float: left;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 10px;
-  border: 2px solid #a1a1a1;
   background: #dddddd;
-  text-align:center;
-  font-size: 200%;
-  line-height: 100px;
+  border: 2px solid white;
 }
+
+.item.w2 { width:  150px; }
+.item.w3 { width:  200px; }
+.item.w4 { width:  250px; }
+.item.w5 { width:  650px; }
+
+.item.h2 { height: 120px; }
+.item.h3 { height: 140px; }
+.item.h4 { height: 180px; }
+.item.h5 { height: 200px; }
 
 #send:hover {
   background-color: grey;
-}
-
-#container {
-}
-
-#message_id {
-  border: 2px solid #a1a1a1;
-  padding: 10px; 
-  background: #dddddd;
-  width: 530px;
-  border-radius: 5px;
-  font-size: 200%;
-  margin: 10px;
-}
-
-#presence {
-}
-
-#temperature {
-}
-
-#halleffect {
-}
-
-#send {
 }

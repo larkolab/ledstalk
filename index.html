@@ -6,26 +6,39 @@
     <title>leD's talk!</title>
   </head>
   <body>
-    <div id="container">
-        <div id="messagebox">
-          <input type="text" name="text_name" id="message_id" value="what's up?"></input>
-        </div>
-        <div id="presence" class="bouton">
-	  <span id="presence_element"></span>
-	</div>
-	<div id="temperature" class="bouton">
-	  <span id="temperature_element"></span>
-	</div>
-	<div id="halleffect" class="bouton">
-	  FX
-	</div>
-	<div id="send" class="bouton" onClick="sendMessage()">
-          <i class="fa fa-send-o fa-2x"></i>
-	</div>
+    <div class="masonry">
+      <div class="item"></div>
+      <div id="temperature" class="item w3 h5">
+	<span id="temperature_element"></span>
+      </div>
+      <div class="item w2 h2"></div>
+      <div class="item h3"></div>
+      <div class="item h2"></div>
+      <div class="item w3"></div>
+      <div id="messagebox">
+	<input type="text" name="text_name" id="message_id" value="what's up?" class="item w5"></input>
+      </div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item h2"></div>
+      <div class="item w2 h3"></div>
+      <div id="presence" class="item">
+	<span id="presence_element"></span>
+      </div>
+      <div class="item"></div>
+      <div class="item h2"></div>
+      <div class="item"></div>
+      <div class="item w2 h2"></div>
+      <div class="item w2"></div>
+      <div id="send" class="item" onClick="sendMessage()">
+	<i class="fa fa-send-o fa-2x"></i>
+      </div>
+      <div class="item"></div>
+      <div class="item h2"></div>
     </div>
-
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>  
     <script src="http://d23cj0cdvyoxg0.cloudfront.net/xivelyjs-1.0.4.min.js"></script>
+    <script src="masonry.pkgd.js"></script>
     <script src="msg.js"></script>
   </body>
 </html>

@@ -18,7 +18,7 @@ function sendMessage() {
   // Get message from input text box
   var message = document.getElementById('message_id').value;
 
-  xively.datastream.update(feedID, message_datastreamID, {current_value: message}, function(data){ alert("channel updated");})
+  xively.datastream.update(feedID, message_datastreamID, {current_value: message}, function(data){ /*alert("channel updated");*/})
 }
 
 function setPresenceColor(object, presence_status) {

@@ -21,12 +21,32 @@
 .item.w2 { width:  150px; }
 .item.w3 { width:  200px; }
 .item.w4 { width:  250px; }
-.item.w5 { width:  650px; }
+.item.w5 { width:  700px; }
 
-.item.h2 { height: 120px; }
-.item.h3 { height: 140px; }
-.item.h4 { height: 180px; }
-.item.h5 { height: 200px; }
+.item.h2 { height: 50px; }
+.item.h3 { height: 150px; }
+.item.h4 { height: 200px; }
+
+#temperature {
+  font-size: 350%;
+  text-align:center;
+  line-height: 200px;
+}
+
+#presence {
+  font-size: 350%;
+  text-align:center;
+  line-height: 100px;
+}
+
+#message_id {
+  font-size: 200%;
+}
+
+#send {
+  text-align:center;
+  line-height: 100px;
+}
 
 #send:hover {
   background-color: grey;

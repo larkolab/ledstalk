@@ -8,6 +8,7 @@
 .masonry {
   background: #EEE;
   max-width: 1000px;
+  margin: 0 auto;
 }
 
 .masonry .item {

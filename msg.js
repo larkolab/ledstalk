@@ -2,6 +2,7 @@ var container = document.querySelector('.masonry');
 var msnry = new Masonry( container, {
   // options
   columnWidth: 100,
+  //isFitWidth: true
 });
 
 // See http://xively.github.io/xively-js/tutorial/ for details
